@@ -1,0 +1,49 @@
+name: lifechart
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  cached_network_image: ^3.1.0
+  flutter_rating_bar: ^4.0.0
+  flutter_svg: ^0.22.0
+  pinput: ^1.2.0
+  page_view_indicators:
+  bubble:
+  flutter_linkify:
+  intl:
+  url_launcher:     
+  just_audio: ^0.9.4
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  color: "#8B6BFE"
+  image: images/logo.png
+  android: true
+  ios: true
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato-Regular_0.ttf  
+    - family: Museo700
+      fonts:
+        - asset: fonts/Museo700-Regular.otf  
+ 
